@@ -1,5 +1,5 @@
 # AFLProject
-This project is developed using Java 8 with Junit and Mockito. The code is organized through a controller and service. 
+This project is developed using Java 8 with Maven, Junit and Mockito. The code is organized through a controller, service, constant, enums and util. Jacoco is not included at the moment.
 
 # CONTROLLER
 The controller is the main program. As for the purpose of execution it methods were coded in a plain main method. Which eventually can be replace as restful api. 
