@@ -18,17 +18,18 @@ This is for the utility classes which will help the service classess implementat
 
 Children’s Game
 ----------------------------------------------------------------------------------
-totalChildren is the number of Children will play the game.
-runningNumber is the number that was selected to stop the counting and the number that pointed to it will be eliminated. 
-winnerChild is the final number that the was the last number left.
+totalChildren - is the number of Children will play the game.
+runningNumber - is the number that was selected to stop the counting and the number that pointed to it will be eliminated. 
+winnerChild - is the final number that the was the last number left.
 
 Number Iterator
 ----------------------------------------------------------------------------------
-integersLength is the total number of the sequence, this will be the basis of the code to iterate over the sequence. 
-firstNumber is the number that is divisible by 3
-secondNumber is the number that is divisible by 5
+integersLength - is the total number of the sequence, this will be the basis of the code to iterate over the sequence. 
+firstNumber - is the number that is divisible by 3
+secondNumber - is the number that is divisible by 5
+
 The program will append each item to String Builder together with the sequence number and the word FOO is it is divisible by 3. 
 The program will append each item to String Builder together with the sequence number and the word BARis it is divisible by 5
 The program will append each item to String Builder together with the sequence number and the word BAZ is it is divisible by both 3 and 5. 
 
-The code is prepared to include some enums for other divisibilities however the main code conditions only limited to odd numbers. 
+The code was coded to include some enums for other divisibilities however the main code conditions only limited to odd numbers. 
