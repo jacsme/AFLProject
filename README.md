@@ -5,7 +5,7 @@ This project is developed using Java 8 with Maven, Junit and Mockito. The code i
 The controller is the main program. As for the purpose of execution it methods were coded in a plain main method. Which eventually can be replace as restful api if necessary. 
 
 # SERVICE
-The service classes are composed of interface class and implemented class. These will promote code maintainable and reusable for the future enhancement. The implement classes are the actual execution of the project. 
+The service classes are composed of interface class and implemented class. These will promote code maintainable and reusable for the future enhancement. The implementing classes are the actual execution of the project. 
 
 # CONSTANT
 Constants variables are place here to make it reusable to some future usage.
