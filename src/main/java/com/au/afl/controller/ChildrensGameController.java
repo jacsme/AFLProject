@@ -12,7 +12,7 @@ public class ChildrensGameController {
         
     	try {
 			int winnerChild = 0;
-			int totalChildren = -10;
+			int totalChildren = 10;
 			int runningNumber = 5;
 			
 			ChildrensGameService childrensGameService = new ChildrensGameServiceImpl();
