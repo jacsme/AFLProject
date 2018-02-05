@@ -4,8 +4,6 @@ import com.au.afl.exception.AFLException;
 import com.au.afl.service.ChildrensGameService;
 import com.au.afl.service.ChildrensGameServiceImpl;
 
-import java.io.IOException;
-
 public class ChildrensGameController {
 
     public static void main(String[] args) throws AFLException {

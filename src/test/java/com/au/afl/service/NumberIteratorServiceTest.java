@@ -20,6 +20,7 @@ public class NumberIteratorServiceTest {
 	public int secondNumber = 0;
 	public int integersLength = 0;
 	public StringBuilder resultMessage = new StringBuilder();
+	public StringBuilder resultMessageEmpty = new StringBuilder();
 	
 	@Before
 	public void setUp() throws Exception {
@@ -41,5 +42,14 @@ public class NumberIteratorServiceTest {
 		secondNumber = 4;
 		resultMessage = numberIteratorServiceImpl.executeNumberIterator(integersLength, firstNumber, secondNumber);
 		assertEquals(TestConstantsResult.setResultMessageEvenNumber().toString(), resultMessage.toString());
+	}
+	
+	@Test
+	public void testNumberIteratorEmptyNumbers() throws Exception{
+		integersLength = -10;
+		firstNumber = 3;
+		secondNumber = 5;
+		resultMessage = numberIteratorServiceImpl.executeNumberIterator(integersLength, firstNumber, secondNumber);
+		assertEquals(resultMessageEmpty.toString(), resultMessage.toString());
 	}
 }

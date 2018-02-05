@@ -13,7 +13,7 @@ public class TestConstantsResult {
         resultMessage.append("7\n");
         resultMessage.append("8\n");
         resultMessage.append("9FOO\n");
-        resultMessage.append("10\n");
+        resultMessage.append("10BAR\n");
         return resultMessage;
     }
     
