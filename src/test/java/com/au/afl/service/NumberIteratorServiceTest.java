@@ -26,11 +26,20 @@ public class NumberIteratorServiceTest {
 	}
 
 	@Test
-	public void testNumberIteratorNumbers() throws Exception{
+	public void testNumberIteratorOddNumbers() throws Exception{
 		integersLength = 10;
 		firstNumber = 3;
 		secondNumber = 5;
 		resultMessage = numberIteratorServiceImpl.executeNumberIterator(integersLength, firstNumber, secondNumber);
-		assertEquals(TestConstantsResult.setResultMessageNumber().toString(), resultMessage.toString());
+		assertEquals(TestConstantsResult.setResultMessageOddNumber().toString(), resultMessage.toString());
+	}
+	
+	@Test
+	public void testNumberIteratorEvenNumbers() throws Exception{
+		integersLength = 10;
+		firstNumber = 2;
+		secondNumber = 4;
+		resultMessage = numberIteratorServiceImpl.executeNumberIterator(integersLength, firstNumber, secondNumber);
+		assertEquals(TestConstantsResult.setResultMessageEvenNumber().toString(), resultMessage.toString());
 	}
 }
