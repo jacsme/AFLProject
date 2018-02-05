@@ -20,16 +20,16 @@ Children’s Game
 ----------------------------------------------------------------------------------
 totalChildren - is the number of Children will play the game.
 runningNumber - is the number that was selected to stop the counting and the number that pointed to it will be eliminated. 
-winnerChild - is the final number that the was the last number left.
+winnerChild - is the final number which was the last number left.
 
 Number Iterator
 ----------------------------------------------------------------------------------
 integersLength - is the total number of the sequence, this will be the basis of the code to iterate over the sequence. 
-firstNumber - is the number that is divisible by 3
-secondNumber - is the number that is divisible by 5
+firstNumber - is the number that is divisible by selected number
+secondNumber - is the number that is divisible by selected number
 
-The program will append each item to String Builder together with the sequence number and the word FOO if it is divisible by 3. 
-The program will append each item to String Builder together with the sequence number and the word BARis if it is divisible by 5
-The program will append each item to String Builder together with the sequence number and the word BAZ if it is divisible by both 3 and 5. 
+The program will append each item to String Builder together with the sequence number and the word FOO if it is divisible by firstnumber. 
+The program will append each item to String Builder together with the sequence number and the word BARis if it is divisible by secondnumber
+The program will append each item to String Builder together with the sequence number and the word BAZ if it is divisible by both firstnumber and secondnumber. 
 
 The code was coded to include some enums for other divisibilities however the main code conditions only limited to odd numbers. 
